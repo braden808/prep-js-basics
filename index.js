@@ -1,16 +1,18 @@
 /* create variables */
-
+var 
 /**
 * #1
 * Variables with a String as their value
-*
+*\
 * Declare variables named `firstName`, `lastName`, and `birthPlace`.
 * Fill out the values for these with your own data or make it up.
 *
 * It should be a String.
 **/
 
-
+var firstName = "Braden"
+var lastName = "Amorozo"
+var birthPlace = "Hawaii"
 
 /**
 * #2
@@ -22,7 +24,7 @@
 * Their values should be a Number
 **/
 
-
+var favoriteNumber = 12;
 
 /**
 * #3
@@ -34,7 +36,9 @@
 * Their values should be a Boolean
 **/
 
-
+var isDaytime = true;
+var isLeftHanded = false;
+var inHawaii = true;
 
 /**
 * #4
@@ -45,7 +49,8 @@
 * Their values should be a Null value
 **/
 
-
+var enrolledAtDevLeague = null;
+var completedFridayPrep = null;
 
 /**
 * #5a
@@ -56,7 +61,7 @@
 * which can be found along the west coast of The United States.
 **/
 
-
+var westCoast = ['California, Oregon, Washington, Alaska, Hawaii'];
 
 /**
 * #5b
@@ -67,7 +72,7 @@
 * Have at least ten even values in this array.
 **/
 
-
+var evenNumbers [2,4,6,8,10,12,14,16,18,20,22,24,26,28,30];
 
 /**
 * #6a Arithmetic
@@ -80,7 +85,7 @@
 * Extend this behavior to include subtraction, multiplication and division.
 */
 
-
+var sumOfNumbers = 25 + 25 + 25
 
 
 /**
@@ -99,7 +104,7 @@
 *   operator(==) vs triple comparison operator(===).
 */
 
-
+var isEqual 
 
 /**
 * #6c Assignments

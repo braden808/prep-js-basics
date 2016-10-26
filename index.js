@@ -49,8 +49,8 @@ var inHawaii = true;
 * Their values should be a Null value
 **/
 
-var enrolledAtDevLeague = null;
-var completedFridayPrep = null;
+var enrolledAtDevLeague = NaN;
+var completedFridayPrep = NaN;
 
 /**
 * #5a
@@ -85,7 +85,7 @@ var evenNumbers [2,4,6,8,10,12,14,16,18,20,22,24,26,28,30];
 * Extend this behavior to include subtraction, multiplication and division.
 */
 
-var sumOfNumbers = 25 + 25 + 25
+var sumOfNumbers = (25 - 5 * 10 / 5 + 4);
 
 
 /**
@@ -104,7 +104,7 @@ var sumOfNumbers = 25 + 25 + 25
 *   operator(==) vs triple comparison operator(===).
 */
 
-var isEqual 
+var isEqual = Tacocat == tacocat;
 
 /**
 * #6c Assignments
@@ -121,7 +121,11 @@ var isEqual
 *   it can only test that you declared the variable by giving it the right name.
 */
 
-
+var generalContainer = "astring"
+var generalContainer = "anotherstring"
+var generalContainer = 7;
+var generalContainer = true;
+var generalContainer = false;
 
 
 /**
@@ -136,7 +140,9 @@ var isEqual
 * Store the return value to a variable named `jumpResult`
 **/
 
-
+function jump (height) {
+	return "you jumped" + height + "feet height";
+}
 
 /**
 * #7b
@@ -148,3 +154,7 @@ var isEqual
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 **/
 
+cook("Tomatoes", "Cheese", "Pizza")
+
+function cook (ingredient1,ingredient2,recipeName)
+	return "ingredient1" + and + "ingredient2" + make + a + "recipename"

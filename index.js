@@ -156,5 +156,5 @@ function jump (height) {
 
 cook("Tomatoes", "Cheese", "Pizza")
 
-function cook (ingredient1,ingredient2,recipeName)
-	return "ingredient1" + and + "ingredient2" + make + a + "recipename"
+function cook (ingredient1,ingredient2,recipeName) {
+	return ingredient1 + "and" + ingredient2 + "make a" + recipename "!"}
